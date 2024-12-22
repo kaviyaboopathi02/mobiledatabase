@@ -1,15 +1,15 @@
 **mobile database**
 
-Project Description;
+**Project Description;**
 
 The project focuses on building and managing a relational database system to store and manipulate information about movies, actors, directors, reviews, and genres. It demonstrates the use of SQL features such as table creation, data insertion, queries (including subqueries and joins), and stored procedures. This system allows users to retrieve and manage movie-related information efficiently.
 
-Tool Used;
+**Tool Used;**
 
-MySQL
+**MySQL**
 The database management system used to create and manage the relational database, including tables, constraints, stored procedures, and queries.
 
-Tables Used;
+**Tables Used;**
 movie:
 Stores information about movies, including movie ID, name, title, release year, director ID, and actor ID.
 
@@ -25,30 +25,34 @@ Stores reviews for movies, including review ID, movie ID, reviewer name, review 
 genres:
 Stores genres associated with movies, including movie ID and genre name.
 
-Queries Used
+**Queries Used**
 Insert Queries:
 Populates the movie, actor, director, reviews_s, and genres tables with sample data.
 
-Select Queries:
+**Select Queries:**
 
 View all data from tables (e.g., SELECT * FROM movie;).
 Fetch details of movies with specific conditions (e.g., movies with ratings above 50).
 Use subqueries to find related information (e.g., genres of movies reviewed highly).
-Joins:
+
+**Joins:**
 
 Combine data across tables to create meaningful outputs:
 Reviews with genre names.
 Movies with actor details.
-Update Queries:
+
+**Update Queries:**
 
 Update director names.
 Modify review ratings for movies released after 2010.
-Stored Procedures:
+
+**Stored Procedures:**
 
 GetHighRatedMovies: Fetches movies with a rating above a given threshold.
 AddActor: Inserts a new actor into the database.
 GetActorsByMovie: Retrieves actors for a specific movie.
 How to Use
+
 Database Setup:
 
 Create the database using CREATE DATABASE movies;.
